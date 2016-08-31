@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B56021B1D76AE2E00165348 /* sportIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B5602191D76AE2E00165348 /* sportIcon.png */; };
+		4B56021C1D76AE2E00165348 /* sportIconSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B56021A1D76AE2E00165348 /* sportIconSelect.png */; };
+		4B9FC9E21D73DBAE00D93050 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FC9E11D73DBAE00D93050 /* AppDelegate.swift */; };
+		4B9FC9E91D73DBAE00D93050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9FC9E81D73DBAE00D93050 /* Assets.xcassets */; };
+		4B9FC9EC1D73DBAE00D93050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9FC9EA1D73DBAE00D93050 /* LaunchScreen.storyboard */; };
+		4B9FC9F71D73DBAE00D93050 /* BikeImmersiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FC9F61D73DBAE00D93050 /* BikeImmersiveTests.swift */; };
+		4B9FCA021D73DBAF00D93050 /* BikeImmersiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FCA011D73DBAF00D93050 /* BikeImmersiveUITests.swift */; };
+		4B9FCA121D740FDC00D93050 /* SportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FCA111D740FDC00D93050 /* SportViewController.swift */; };
+		4B9FCA141D74196F00D93050 /* BITabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FCA131D74196F00D93050 /* BITabBarViewController.swift */; };
+		4B9FCA161D741F5F00D93050 /* BINavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FCA151D741F5F00D93050 /* BINavigationViewController.swift */; };
+		4B9FCA181D7420F200D93050 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FCA171D7420F200D93050 /* MineViewController.swift */; };
+		4B9FCA1A1D74212700D93050 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FCA191D74212700D93050 /* CommunityViewController.swift */; };
+		4B9FCA1C1D74215F00D93050 /* EquipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FCA1B1D74215F00D93050 /* EquipmentViewController.swift */; };
+		91E985616A8D9A3AD79895CD /* libPods-BikeImmersive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7CA3975BF8FCEEF8017F2E /* libPods-BikeImmersive.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B9FC9F31D73DBAE00D93050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B9FC9D61D73DBAE00D93050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B9FC9DD1D73DBAE00D93050;
+			remoteInfo = BikeImmersive;
+		};
+		4B9FC9FE1D73DBAF00D93050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B9FC9D61D73DBAE00D93050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B9FC9DD1D73DBAE00D93050;
+			remoteInfo = BikeImmersive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B5602191D76AE2E00165348 /* sportIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sportIcon.png; sourceTree = "<group>"; };
+		4B56021A1D76AE2E00165348 /* sportIconSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sportIconSelect.png; sourceTree = "<group>"; };
+		4B9FC9DE1D73DBAE00D93050 /* BikeImmersive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeImmersive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9FC9E11D73DBAE00D93050 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B9FC9E81D73DBAE00D93050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B9FC9EB1D73DBAE00D93050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B9FC9ED1D73DBAE00D93050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9FC9F21D73DBAE00D93050 /* BikeImmersiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeImmersiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9FC9F61D73DBAE00D93050 /* BikeImmersiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeImmersiveTests.swift; sourceTree = "<group>"; };
+		4B9FC9F81D73DBAE00D93050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9FC9FD1D73DBAF00D93050 /* BikeImmersiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeImmersiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9FCA011D73DBAF00D93050 /* BikeImmersiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeImmersiveUITests.swift; sourceTree = "<group>"; };
+		4B9FCA031D73DBAF00D93050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9FCA111D740FDC00D93050 /* SportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportViewController.swift; sourceTree = "<group>"; };
+		4B9FCA131D74196F00D93050 /* BITabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BITabBarViewController.swift; sourceTree = "<group>"; };
+		4B9FCA151D741F5F00D93050 /* BINavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BINavigationViewController.swift; sourceTree = "<group>"; };
+		4B9FCA171D7420F200D93050 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		4B9FCA191D74212700D93050 /* CommunityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		4B9FCA1B1D74215F00D93050 /* EquipmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquipmentViewController.swift; sourceTree = "<group>"; };
+		CA093C1BE0B0E467EDBB44DA /* Pods-BikeImmersive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeImmersive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BikeImmersive/Pods-BikeImmersive.debug.xcconfig"; sourceTree = "<group>"; };
+		CC7CA3975BF8FCEEF8017F2E /* libPods-BikeImmersive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BikeImmersive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9F1F29FE5171DA3BFBDF5C /* Pods-BikeImmersive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeImmersive.release.xcconfig"; path = "Pods/Target Support Files/Pods-BikeImmersive/Pods-BikeImmersive.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B9FC9DB1D73DBAE00D93050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E985616A8D9A3AD79895CD /* libPods-BikeImmersive.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9FC9EF1D73DBAE00D93050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9FC9FA1D73DBAF00D93050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		232EECEB683EFD771B51CA7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA093C1BE0B0E467EDBB44DA /* Pods-BikeImmersive.debug.xcconfig */,
+				CD9F1F29FE5171DA3BFBDF5C /* Pods-BikeImmersive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4B5602171D76AE1300165348 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4B5602181D76AE1D00165348 /* Images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4B5602181D76AE1D00165348 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4B5602191D76AE2E00165348 /* sportIcon.png */,
+				4B56021A1D76AE2E00165348 /* sportIconSelect.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		4B9FC9D51D73DBAE00D93050 = {
+			isa = PBXGroup;
+			children = (
+				4B9FC9E01D73DBAE00D93050 /* BikeImmersive */,
+				4B9FC9F51D73DBAE00D93050 /* BikeImmersiveTests */,
+				4B9FCA001D73DBAF00D93050 /* BikeImmersiveUITests */,
+				4B9FC9DF1D73DBAE00D93050 /* Products */,
+				232EECEB683EFD771B51CA7E /* Pods */,
+				74235F3384CF940BA131774F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B9FC9DF1D73DBAE00D93050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B9FC9DE1D73DBAE00D93050 /* BikeImmersive.app */,
+				4B9FC9F21D73DBAE00D93050 /* BikeImmersiveTests.xctest */,
+				4B9FC9FD1D73DBAF00D93050 /* BikeImmersiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B9FC9E01D73DBAE00D93050 /* BikeImmersive */ = {
+			isa = PBXGroup;
+			children = (
+				4B5602171D76AE1300165348 /* Resource */,
+				4B9FCA0F1D740F8F00D93050 /* Sport */,
+				4B9FC9E11D73DBAE00D93050 /* AppDelegate.swift */,
+				4B9FC9E81D73DBAE00D93050 /* Assets.xcassets */,
+				4B9FC9EA1D73DBAE00D93050 /* LaunchScreen.storyboard */,
+				4B9FC9ED1D73DBAE00D93050 /* Info.plist */,
+				4B9FCA151D741F5F00D93050 /* BINavigationViewController.swift */,
+			);
+			path = BikeImmersive;
+			sourceTree = "<group>";
+		};
+		4B9FC9F51D73DBAE00D93050 /* BikeImmersiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B9FC9F61D73DBAE00D93050 /* BikeImmersiveTests.swift */,
+				4B9FC9F81D73DBAE00D93050 /* Info.plist */,
+			);
+			path = BikeImmersiveTests;
+			sourceTree = "<group>";
+		};
+		4B9FCA001D73DBAF00D93050 /* BikeImmersiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B9FCA011D73DBAF00D93050 /* BikeImmersiveUITests.swift */,
+				4B9FCA031D73DBAF00D93050 /* Info.plist */,
+			);
+			path = BikeImmersiveUITests;
+			sourceTree = "<group>";
+		};
+		4B9FCA0F1D740F8F00D93050 /* Sport */ = {
+			isa = PBXGroup;
+			children = (
+				4B9FCA101D740FCE00D93050 /* ViewControllers */,
+				4B9FCA131D74196F00D93050 /* BITabBarViewController.swift */,
+			);
+			path = Sport;
+			sourceTree = "<group>";
+		};
+		4B9FCA101D740FCE00D93050 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B9FCA111D740FDC00D93050 /* SportViewController.swift */,
+				4B9FCA171D7420F200D93050 /* MineViewController.swift */,
+				4B9FCA191D74212700D93050 /* CommunityViewController.swift */,
+				4B9FCA1B1D74215F00D93050 /* EquipmentViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		74235F3384CF940BA131774F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC7CA3975BF8FCEEF8017F2E /* libPods-BikeImmersive.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B9FC9DD1D73DBAE00D93050 /* BikeImmersive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9FCA061D73DBAF00D93050 /* Build configuration list for PBXNativeTarget "BikeImmersive" */;
+			buildPhases = (
+				5CF3123ED5AF3CFA6DB89DB6 /* [CP] Check Pods Manifest.lock */,
+				4B9FC9DA1D73DBAE00D93050 /* Sources */,
+				4B9FC9DB1D73DBAE00D93050 /* Frameworks */,
+				4B9FC9DC1D73DBAE00D93050 /* Resources */,
+				B69E9F93BAE47E05FDE06205 /* [CP] Embed Pods Frameworks */,
+				5C557E93F6C22277079D5979 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BikeImmersive;
+			productName = BikeImmersive;
+			productReference = 4B9FC9DE1D73DBAE00D93050 /* BikeImmersive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B9FC9F11D73DBAE00D93050 /* BikeImmersiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9FCA091D73DBAF00D93050 /* Build configuration list for PBXNativeTarget "BikeImmersiveTests" */;
+			buildPhases = (
+				4B9FC9EE1D73DBAE00D93050 /* Sources */,
+				4B9FC9EF1D73DBAE00D93050 /* Frameworks */,
+				4B9FC9F01D73DBAE00D93050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B9FC9F41D73DBAE00D93050 /* PBXTargetDependency */,
+			);
+			name = BikeImmersiveTests;
+			productName = BikeImmersiveTests;
+			productReference = 4B9FC9F21D73DBAE00D93050 /* BikeImmersiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B9FC9FC1D73DBAF00D93050 /* BikeImmersiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9FCA0C1D73DBAF00D93050 /* Build configuration list for PBXNativeTarget "BikeImmersiveUITests" */;
+			buildPhases = (
+				4B9FC9F91D73DBAF00D93050 /* Sources */,
+				4B9FC9FA1D73DBAF00D93050 /* Frameworks */,
+				4B9FC9FB1D73DBAF00D93050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B9FC9FF1D73DBAF00D93050 /* PBXTargetDependency */,
+			);
+			name = BikeImmersiveUITests;
+			productName = BikeImmersiveUITests;
+			productReference = 4B9FC9FD1D73DBAF00D93050 /* BikeImmersiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B9FC9D61D73DBAE00D93050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = www.BikeImmersive.com;
+				TargetAttributes = {
+					4B9FC9DD1D73DBAE00D93050 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4B9FC9F11D73DBAE00D93050 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4B9FC9DD1D73DBAE00D93050;
+					};
+					4B9FC9FC1D73DBAF00D93050 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4B9FC9DD1D73DBAE00D93050;
+					};
+				};
+			};
+			buildConfigurationList = 4B9FC9D91D73DBAE00D93050 /* Build configuration list for PBXProject "BikeImmersive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B9FC9D51D73DBAE00D93050;
+			productRefGroup = 4B9FC9DF1D73DBAE00D93050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B9FC9DD1D73DBAE00D93050 /* BikeImmersive */,
+				4B9FC9F11D73DBAE00D93050 /* BikeImmersiveTests */,
+				4B9FC9FC1D73DBAF00D93050 /* BikeImmersiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B9FC9DC1D73DBAE00D93050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9FC9EC1D73DBAE00D93050 /* LaunchScreen.storyboard in Resources */,
+				4B9FC9E91D73DBAE00D93050 /* Assets.xcassets in Resources */,
+				4B56021B1D76AE2E00165348 /* sportIcon.png in Resources */,
+				4B56021C1D76AE2E00165348 /* sportIconSelect.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9FC9F01D73DBAE00D93050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9FC9FB1D73DBAF00D93050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C557E93F6C22277079D5979 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikeImmersive/Pods-BikeImmersive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CF3123ED5AF3CFA6DB89DB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B69E9F93BAE47E05FDE06205 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikeImmersive/Pods-BikeImmersive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B9FC9DA1D73DBAE00D93050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9FC9E21D73DBAE00D93050 /* AppDelegate.swift in Sources */,
+				4B9FCA121D740FDC00D93050 /* SportViewController.swift in Sources */,
+				4B9FCA1A1D74212700D93050 /* CommunityViewController.swift in Sources */,
+				4B9FCA161D741F5F00D93050 /* BINavigationViewController.swift in Sources */,
+				4B9FCA141D74196F00D93050 /* BITabBarViewController.swift in Sources */,
+				4B9FCA1C1D74215F00D93050 /* EquipmentViewController.swift in Sources */,
+				4B9FCA181D7420F200D93050 /* MineViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9FC9EE1D73DBAE00D93050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9FC9F71D73DBAE00D93050 /* BikeImmersiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9FC9F91D73DBAF00D93050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9FCA021D73DBAF00D93050 /* BikeImmersiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B9FC9F41D73DBAE00D93050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B9FC9DD1D73DBAE00D93050 /* BikeImmersive */;
+			targetProxy = 4B9FC9F31D73DBAE00D93050 /* PBXContainerItemProxy */;
+		};
+		4B9FC9FF1D73DBAF00D93050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B9FC9DD1D73DBAE00D93050 /* BikeImmersive */;
+			targetProxy = 4B9FC9FE1D73DBAF00D93050 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B9FC9EA1D73DBAE00D93050 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B9FC9EB1D73DBAE00D93050 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B9FCA041D73DBAF00D93050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B9FCA051D73DBAF00D93050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B9FCA071D73DBAF00D93050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA093C1BE0B0E467EDBB44DA /* Pods-BikeImmersive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BikeImmersive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tww.BikeImmersive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B9FCA081D73DBAF00D93050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD9F1F29FE5171DA3BFBDF5C /* Pods-BikeImmersive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BikeImmersive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tww.BikeImmersive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B9FCA0A1D73DBAF00D93050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BikeImmersiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tww.BikeImmersiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeImmersive.app/BikeImmersive";
+			};
+			name = Debug;
+		};
+		4B9FCA0B1D73DBAF00D93050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BikeImmersiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tww.BikeImmersiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeImmersive.app/BikeImmersive";
+			};
+			name = Release;
+		};
+		4B9FCA0D1D73DBAF00D93050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BikeImmersiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tww.BikeImmersiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BikeImmersive;
+			};
+			name = Debug;
+		};
+		4B9FCA0E1D73DBAF00D93050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BikeImmersiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tww.BikeImmersiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BikeImmersive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B9FC9D91D73DBAE00D93050 /* Build configuration list for PBXProject "BikeImmersive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9FCA041D73DBAF00D93050 /* Debug */,
+				4B9FCA051D73DBAF00D93050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9FCA061D73DBAF00D93050 /* Build configuration list for PBXNativeTarget "BikeImmersive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9FCA071D73DBAF00D93050 /* Debug */,
+				4B9FCA081D73DBAF00D93050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9FCA091D73DBAF00D93050 /* Build configuration list for PBXNativeTarget "BikeImmersiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9FCA0A1D73DBAF00D93050 /* Debug */,
+				4B9FCA0B1D73DBAF00D93050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9FCA0C1D73DBAF00D93050 /* Build configuration list for PBXNativeTarget "BikeImmersiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9FCA0D1D73DBAF00D93050 /* Debug */,
+				4B9FCA0E1D73DBAF00D93050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B9FC9D61D73DBAE00D93050 /* Project object */;
+}
